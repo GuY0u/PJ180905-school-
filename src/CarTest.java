@@ -8,7 +8,7 @@ class Car{
 	}
 	
 	public Car(String color) {
-		this.color = color;
+		this.color = color; //클래스매개변수랑 메소드의 매개변수가 이름이 똑같다 그래서 나를 지정해주는 this를 사용한다.
 	}
 	
 	public Car(String color, int speed) {
